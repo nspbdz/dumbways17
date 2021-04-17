@@ -6,13 +6,13 @@ link no 1 https://github.com/nspbdz/dumbways17/blob/main/1.html
 untuk menjawab soal no 1 saya menggunakan bahasa pemrograman javascript untuk mengecek nya tinggal masukan/copy  isi dari file ini ke dalam compiler seperti https://playcode.io/new/
 dan bisa anda coba lewat localhost dengan cara masukan  folder ini ke dalam htdocs lalu masuk ke browser dan masukan ke url berikut  http://localhost/dumbways17/1.html
 
-link no 3 https://github.com/nspbdz/dumbways17/blob/main/2.html
-soal 3 untuk menjawab saya menggunakan bahasa pemrograman javascript untuk mengecek nya tinggal masukan isi dari file ini ke dalam compiler seperti https://playcode.io/new/
+link no 2 https://github.com/nspbdz/dumbways17/blob/main/2.html
+soal 2 untuk menjawab saya menggunakan bahasa pemrograman javascript untuk mengecek nya tinggal masukan isi dari file ini ke dalam compiler seperti https://playcode.io/new/
 dan bisa anda coba lewat localhost dengan cara masukan 1 folder ini ke dalam htdocs lalu masuk ke browser dan masukan ke url berikut  http://localhost/dumbways17/1.html
 jawaban 
 ada di console 
 
-untuk soal 2 
+untuk soal 3
 
 
 soal 4
