@@ -1,0 +1,42 @@
+Create table heroes_tb(
+     id varchar (100) NOT NULL,
+     name varchar (100),
+     type_id varchar (100),
+     photo varchar (100),
+     PRIMARY KEY (id));
+
+Create table type_tb(
+     id varchar (100) NOT NULL,
+     name varchar (100),
+     PRIMARY KEY (id));
+
+
+4.a Tampilkan seluruh data dari table heroes beserta type dari hero tsb
+SELECT * FROM heroes_tb
+JOIN type_tb ON
+heroes_tb.type_id =type_tb.id  ORDER BY heroes_tb.id ASC;
+4.a berdasarkan type heroes tertentu
+SELECT * FROM heroes_tb WHERE type_id =1
+4a.Tampilkan spesifik data heroes dengan type nya
+SELECT heroes_tb.name,type_tb.name,heroes_tb.photo FROM heroes_tb JOIN type_tb ON heroes_tb.type_id =type_tb.id ORDER BY heroes_tb.id ASC
+
+4a. Screen shootkan juga hasil query POST / menambah data.
+
+INSERT INTO heroes_tb  VALUES('1','superman','1','superman.jpg');
+INSERT INTO heroes_tb  VALUES('2','batman','2','batman.jpg');
+INSERT INTO heroes_tb  VALUES('1','superman','1','superman.jpg');
+
+
+INSERT INTO type_tb VALUES ('1','strength');
+INSERT INTO type_tb VALUES ('2','hp');
+INSERT INTO type_tb VALUES ('1','agility');
+
+
+
+SELECT heroes_tb.id, heroes_tb.name, type_tb.name, heroes_tb.photo FROM heroes_tb 
+JOIN type_tb ON heroes_tb.type_id =type_tb.id ORDER BY heroes_tb.id ASC
+
+
+
+SELECT heroes_tb.id, heroes_tb.name AS heroName, type_tb.name AS typeName, heroes_tb.photo FROM
+ heroes_tb JOIN type_tb ON heroes_tb.type_id =type_tb.id ORDER BY heroes_tb.id ASC
