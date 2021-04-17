@@ -12,7 +12,11 @@ dan bisa anda coba lewat localhost dengan cara masukan 1 folder ini ke dalam htd
 jawaban 
 ada di console 
 
+
 untuk soal 3
+link no 3 https://github.com/nspbdz/dumbways17/blob/main/3.html
+untuk menjawab soal no 3 saya menggunakan bahasa pemrograman javascript untuk mengecek nya tinggal masukan/copy  isi dari file ini ke dalam compiler seperti https://playcode.io/new/
+dan bisa anda coba lewat localhost dengan cara masukan  folder ini ke dalam htdocs lalu masuk ke browser dan masukan ke url berikut  http://localhost/dumbways17/3.html
 
 
 soal 4
